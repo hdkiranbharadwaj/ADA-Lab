@@ -1,0 +1,10 @@
+//command1.txt
+set title ''
+set style data linespoints
+set xlabel'Input size'
+set ylabel 'Basic operation Count'
+plot 'e_b.txt' title 'best case', 'e_w.txt' title 'worst case'
+pause -1 "press 1"
+
+//system("gnuplot>load 'command.txt'");
+
